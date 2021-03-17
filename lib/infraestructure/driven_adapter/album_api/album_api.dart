@@ -12,7 +12,7 @@ class  AlbumApi extends AlbumGateway {
   }
   @override
   Future<Album> getByID(String id) async{
-    await Future.delayed(Duration(seconds: 2));
+
     final response = await http.get('https://jsonplaceholder.typicode.com/photos/'+id);
     if (response.statusCode == 200){
       return  _albumMapper.fromMap (jsonDecode( response.body));

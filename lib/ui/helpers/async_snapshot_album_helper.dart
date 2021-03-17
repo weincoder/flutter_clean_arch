@@ -1,7 +1,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_clean_arch/ui/common/tokens/our_text.dart';
+import 'package:flutter_clean_arch/ui/common/atoms/our_text.dart';
 import 'package:flutter_clean_arch/ui/model_view/album/album_model_view.dart';
 Widget asyncSnapshotAlbumHelper(AsyncSnapshot snapshot) {
   Widget element = Container();

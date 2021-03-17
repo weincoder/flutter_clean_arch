@@ -23,6 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  auto_size_text: ^2.1.0
   http:
 
   # The following adds the Cupertino Icons font to your application.

@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_clean_arch/ui/common/tokens/colors.dart';
-import 'package:flutter_clean_arch/ui/common/tokens/our_text.dart';
+import 'package:flutter_clean_arch/ui/common/atoms/our_text.dart';
 class OurAppBar extends StatelessWidget with PreferredSizeWidget {
   final String title;
   final Icon iconAppBarr;
