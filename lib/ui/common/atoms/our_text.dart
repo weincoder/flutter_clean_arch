@@ -1,4 +1,3 @@
-import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_clean_arch/ui/common/tokens/typography.dart';
 
@@ -8,21 +7,23 @@ class OurText extends StatelessWidget{
   final String text;
   final Color colorText;
   final double fontSize;
-
+  final TextAlign textAlign;
   OurText ({
     Key key,
     this.text,
     this.colorText,
-    this.fontSize
+    this.fontSize,
+    this.textAlign
+
   }
       ):super(key:key);
   @override
   Widget build(BuildContext context) {
-    return AutoSizeText(
+    return Text(
       this.text,
       style: TextStyle(color: this.colorText, fontSize: this.fontSize ),
-      maxLines: 4,
-      minFontSize: 12,
+      textAlign: TextAlign.center,
+      maxLines: 4
     );
   }
 }

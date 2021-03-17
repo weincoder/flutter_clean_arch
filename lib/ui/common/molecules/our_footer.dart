@@ -18,11 +18,11 @@ class OurFooter extends StatelessWidget {
           items: <BottomNavigationBarItem>[
             BottomNavigationBarItem(
               icon: this.iconLeft,
-              title: Text('Home'),
+              label: 'Home',
             ),
             BottomNavigationBarItem(
               icon: this.iconRight,
-              title: Text('School'),
+              label: 'School',
             ),
           ],
           currentIndex: 0,
