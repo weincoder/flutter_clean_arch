@@ -33,7 +33,7 @@ class H1 extends StatelessWidget{
   H1({Key key, this.text}):super(key:key);
   @override
   Widget build(BuildContext context) {
-    return OurText (text:this.text, colorText: BRAND_SECONDARY);
+    return OurText (text:this.text, colorText: BRAND_SECONDARY,key: Key(key.toString()+'h1'),);
   }
 }
 
